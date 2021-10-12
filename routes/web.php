@@ -1,6 +1,9 @@
 <?php
 
+
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomepageController::class, 'index']);
+
+Route::get('posts', [PostController::class, 'index']);
+
+Route::get('users', [UserController::class, 'index']);
