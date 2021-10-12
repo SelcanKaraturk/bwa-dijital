@@ -20,9 +20,9 @@
             <table class="table table-sm" style="font-size: small">
                 <thead class="thead-dark">
                 <tr>
-                    <th>Id</th>
-                    <th>Title</th>
-                    <th>Body</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
                 </tr>
                 </thead>
                 <tbody id="posts">
