@@ -21,7 +21,7 @@ class UserController extends Controller
             $request = $client->get('https://jsonplaceholder.typicode.com/users');
             return response()->json([
                 'success' => true,
-                'posts' => json_decode($request->getBody())
+                'users' => json_decode($request->getBody())
             ]);
         } catch (\Exception $exception) {
             return response()->json([

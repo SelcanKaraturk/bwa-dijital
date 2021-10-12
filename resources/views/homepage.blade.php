@@ -72,17 +72,17 @@
     </div>
 
     <div class="row ">
-        <div class="col-12 p-0">
+        <div class="col-12 p-0" style="max-height: 465px">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner position-relative">
                     <div class="carousel-item active">
-                        <img src="{{asset('image/slider.png')}}" class="d-block w-100" alt="...">
+                        <img src="{{asset('image/slider.png')}}" class="d-block w-100 h-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://picsum.photos/id/343/700/287" class="d-block w-100" alt="...">
+                        <img src="https://picsum.photos/id/343/700/287" class="d-block w-100 h-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://picsum.photos/id/131/700/287" class="d-block w-100" alt="...">
+                        <img src="https://picsum.photos/id/131/700/287" class="d-block w-100 h-100" alt="...">
                     </div>
 
                     <div class="position-absolute top-0 start-0 text-white d-flex justify-content-center align-items-center h-100 w-100">
